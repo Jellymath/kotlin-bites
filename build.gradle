@@ -1,0 +1,26 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.3.50'
+    id 'java'
+}
+
+group 'test.jellymath'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.0'
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "11"
+    kotlinOptions {
+        freeCompilerArgs = ["-XXLanguage:+InlineClasses", "-Xexperimental=kotlin.ExperimentalUnsignedTypes"]
+    }
+}
+
+sourceCompatibility = '11'
+targetCompatibility = '11'
