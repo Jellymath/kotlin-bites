@@ -6,7 +6,6 @@ fun main() {
         Color.Green -> println("Green")
         else -> return
     }.sealed()
-    Throwable()
 }
 
 private fun <T> T.sealed() = this
