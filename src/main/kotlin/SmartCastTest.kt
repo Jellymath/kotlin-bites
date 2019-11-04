@@ -1,3 +1,4 @@
+// https://t.me/kotlin_lang/168906
 sealed class Demo
 object None: Demo()
 class Some(
@@ -12,7 +13,7 @@ fun interopTest() {
 }
 
 fun smartCastFail(d: Demo) {
-    when(d) {
+    when(d/*!!*/) {
         is Some -> d.thing // из-за "!!" не видит "thing"
     }
 }

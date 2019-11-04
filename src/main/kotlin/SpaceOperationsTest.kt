@@ -1,3 +1,4 @@
+// https://t.me/kotlin_lang/152949
 fun main() {
     val a = listOf(1, 2, 3)
     val b = listOf(3, 4, 5)

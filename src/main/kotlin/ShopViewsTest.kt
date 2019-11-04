@@ -1,3 +1,5 @@
+// https://t.me/kotlin_lang/124123
+
 interface WithShopInfo {
     val shopInfo: ShopInfo
 }

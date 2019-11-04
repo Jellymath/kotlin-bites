@@ -1,3 +1,5 @@
+// https://t.me/kotlin_start/10061
+
 import kotlinx.coroutines.delay
 import kotlin.time.Duration
 import kotlin.time.ExperimentalTime

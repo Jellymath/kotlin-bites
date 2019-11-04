@@ -1,3 +1,6 @@
+// the failed attempt to solve this issue: https://t.me/kotlin_lang/165725
+// more successful attempt here — https://github.com/Jellymath/FlagInline
+
 import kotlin.reflect.KProperty
 
 interface WithFlag {

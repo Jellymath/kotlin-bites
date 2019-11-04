@@ -1,3 +1,5 @@
+// https://t.me/kotlin_start/8764
+
 fun main() {
     val list = listOf(1, 1, 2, 3, 3)
     val result1 = list.groupBy { it }.values.toList()

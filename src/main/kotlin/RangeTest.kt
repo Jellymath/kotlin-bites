@@ -1,3 +1,5 @@
+//kinda solves this problem: https://t.me/kotlin_start/7210
+
 import kotlin.random.Random
 
 fun main() {

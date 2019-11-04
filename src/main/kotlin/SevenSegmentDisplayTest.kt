@@ -1,3 +1,5 @@
+// inspired by https://www.youtube.com/watch?v=zp4BMR88260
+
 import java.net.URL
 
 fun main() {

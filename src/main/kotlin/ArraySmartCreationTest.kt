@@ -1,3 +1,5 @@
+// https://t.me/kotlin_start/9443
+
 fun main() {
     val height = 8
     val result = (0 until 16 * height).mapNotNull {

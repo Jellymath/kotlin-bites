@@ -1,3 +1,5 @@
+// https://t.me/kotlin_start/9493
+
 fun main() {
     val list = listOf("ab", "cd", "ef")
     val result = list.indexOf("bc").takeIf { it != -1 } ?: 2

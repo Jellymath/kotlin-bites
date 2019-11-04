@@ -1,3 +1,5 @@
+// https://t.me/kotlin_start/9791
+
 data class Ft(val id: String)
 
 val idToPosition = mapOf(

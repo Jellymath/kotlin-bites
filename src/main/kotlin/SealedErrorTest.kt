@@ -1,3 +1,5 @@
+// started with https://t.me/kotlin_lang/161615
+
 sealed class GeneralError
 
 sealed class BusinessError: GeneralError()

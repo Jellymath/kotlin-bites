@@ -1,3 +1,5 @@
+// https://t.me/kotlin_start/10036
+
 fun main() {
     val map = mapOf(
         "v[k][1]" to "something",

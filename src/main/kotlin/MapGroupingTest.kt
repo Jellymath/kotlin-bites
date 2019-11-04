@@ -1,3 +1,5 @@
+// https://t.me/kotlin_start/3709
+
 class TaxiPark(val trips: List<Trip>, val description: String)
 
 class Trip(val passengers: List<Passenger>, val description: String)

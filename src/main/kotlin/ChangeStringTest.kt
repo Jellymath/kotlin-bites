@@ -1,3 +1,5 @@
+// https://t.me/kotlin_start/4624
+
 import kotlin.reflect.KMutableProperty0
 
 var str: String = ""

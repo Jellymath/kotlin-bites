@@ -1,3 +1,6 @@
+//context of this — micro optimisation in Dicey Dungeons game. Question — is position of spells really matter?
+// TL/DR — it's better to put even spells to odd slots if possible in Dicey Dungeons Witch Run.
+
 val diceOptions = 1..6
 
 fun main() {

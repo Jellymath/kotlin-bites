@@ -1,3 +1,5 @@
+// https://t.me/kotlin_start/5972
+
 fun longToBytes(l: Long): ByteArray {
     var l = l
     val result = ByteArray(8)
